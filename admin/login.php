@@ -59,13 +59,13 @@ if(isset($_POST['login'])){
         <form action="<?= $_SERVER['PHP_SELF'] ?>" method="POST">
 
             <div class="form-group">
-                <label for="username">Username</label>
+                <label for="username">Nama Pengguna</label>
                 <input class="form-control" type="text" name="username" placeholder="Username atau email" />
             </div>
 
 
             <div class="form-group">
-                <label for="password">Password</label>
+                <label for="password">Kata Sandi</label>
                 <input class="form-control" type="password" name="password" placeholder="Password" />
             </div>
 
