@@ -1,6 +1,5 @@
 <?php 
 
-require_once("config.php");
 
 if(isset($_POST['login'])){
 
@@ -41,7 +40,7 @@ if(isset($_POST['login'])){
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Login Pesbuk</title>
+    <title>Login </title>
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 </head>
